@@ -139,7 +139,7 @@ describe('filterProperties', () => {
       return property.path.includes("size");
     }
     var filteredDictionary = filterProperties(dictionary, filter);
-    _.each(filteredDictionary.allProperties, function(property) {
+    filteredDictionary.allProperties.forEach(function(property) {
       expect(property).not.toBe(colorRed);
       expect(property).not.toBe(colorBlue);
     });
@@ -154,7 +154,7 @@ describe('filterProperties', () => {
     }
 
     var filteredDictionary = filterProperties(falsy_dictionary, filter);
-    _.each(filteredDictionary.allProperties, function(property) {
+    filteredDictionary.allProperties.forEach(function(property) {
       expect(property).not.toBe(not_kept);
     });
     expect(filteredDictionary.allProperties).toEqual([kept]);
