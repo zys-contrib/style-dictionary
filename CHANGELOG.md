@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.0.1
+
+### Patch Changes
+
+- 8f7c522: Fix `loadFile` to deep clone ES module exports to avoid unintended mutations
+
 ## 5.0.0
 
 ### Major Changes
