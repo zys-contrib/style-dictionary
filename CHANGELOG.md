@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.0.3
+
+### Patch Changes
+
+- 71614da: Wrap structuredClone in loadFile in a try catch, in case we have a JS/TS config file with dynamic content.
+
 ## 5.0.2
 
 ### Patch Changes
