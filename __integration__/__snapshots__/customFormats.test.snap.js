@@ -867,6 +867,12 @@ snapshots["integration custom formats inline custom with new args should match s
         "size/compose/em": {
           "type": "value"
         },
+        "size/compose/sp": {
+          "type": "value"
+        },
+        "size/compose/dp": {
+          "type": "value"
+        },
         "size/swift/remToCGFloat": {
           "type": "value"
         },
@@ -1873,6 +1879,12 @@ snapshots["integration custom formats register custom format with new args shoul
           "type": "value"
         },
         "size/compose/em": {
+          "type": "value"
+        },
+        "size/compose/sp": {
+          "type": "value"
+        },
+        "size/compose/dp": {
           "type": "value"
         },
         "size/swift/remToCGFloat": {

@@ -256,6 +256,8 @@ export const transforms = {
   sizeComposeRemToSp: 'size/compose/remToSp',
   sizeComposeRemToDp: 'size/compose/remToDp',
   sizeComposeEm: 'size/compose/em',
+  sizeComposeDp: 'size/compose/dp',
+  sizeComposeSp: 'size/compose/sp',
   sizeSwiftRemToCGFloat: 'size/swift/remToCGFloat',
   sizeRemToPx: 'size/remToPx',
   sizePxToRem: 'size/pxToRem',

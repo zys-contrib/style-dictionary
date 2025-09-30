@@ -438,6 +438,30 @@ Adds the .em Compose extension to the end of a number. Does not scale the value
 
 ---
 
+### size/compose/sp
+
+Adds the .sp Compose extension to the end of a number. Does not scale the value
+
+```kotlin
+// Matches: token.type === 'fontSize'
+// Returns:
+"16.0.sp"
+```
+
+---
+
+### size/compose/dp
+
+Adds the .dp Compose extension to the end of a number. Does not scale the value
+
+```kotlin
+// Matches: token.type === 'dimension'
+// Returns:
+"16.0.dp"
+```
+
+---
+
 ### size/swift/remToCGFloat
 
 Scales the number by 16 (or the value of `basePxFontSize` on the platform in your config) to get to points for Swift and initializes a CGFloat
