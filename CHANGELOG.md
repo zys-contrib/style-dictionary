@@ -1,5 +1,15 @@
 # Changelog
 
+## 5.1.0
+
+### Minor Changes
+
+- 97a209a: Add new size/compose/{sp,dp} transforms
+
+### Patch Changes
+
+- c47600d: Export expand DTCGTypesMap for extension use cases.
+
 ## 5.0.4
 
 ### Patch Changes
