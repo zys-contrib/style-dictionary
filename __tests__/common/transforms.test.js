@@ -1305,6 +1305,15 @@ describe('common', () => {
         ).to.equal('Arial, sans-serif');
       });
 
+      it('should handle double quoted fontFamily values', () => {
+        expect(
+          fontFamilyTransform({
+            value: 'Some Font, "With Double Quotes", \'And Single Quotes\'',
+            type: 'fontFamily',
+          }),
+        ).to.equal("'Some Font', \"With Double Quotes\", 'And Single Quotes'");
+      });
+
       it('should wrap fontFamily values with spaces in quotes', () => {
         expect(fontFamilyTransform({ value: 'Gill Sans', type: 'fontFamily' })).to.equal(
           "'Gill Sans'",
