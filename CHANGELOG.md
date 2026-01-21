@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.1.5
+
+### Patch Changes
+
+- 6e9164e: Small bugfix where formatting.commentStyle was not taken into account for fileHeader comments when possible.
+
 ## 5.1.4
 
 ### Patch Changes
