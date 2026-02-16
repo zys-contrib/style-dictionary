@@ -630,6 +630,8 @@ Transforms `border` type object-value token into a CSS string, using the CSS `bo
 }
 ```
 
+When using DTCG color object definition for the color property, it will auto-convert it to a CSS compatible string if available in the color space in which it is defined.
+
 ---
 
 ### typography/css/shorthand
@@ -683,6 +685,8 @@ Transforms `shadow` type object-value token (which can also be an array) into a 
   --var: 2px 4px 8px 10px #000000, 1px 1px 4px #cccccc;
 }
 ```
+
+When using DTCG color object definition for the color property, it will auto-convert it to a CSS compatible string if available in the color space in which it is defined.
 
 ---
 
