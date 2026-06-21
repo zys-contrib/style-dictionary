@@ -1,5 +1,11 @@
 # Changelog
 
+## 5.4.5
+
+### Patch Changes
+
+- e319976: Fix regression to gracefully handle unparseable dimension tokens which is required to support custom dimension tokens from third party vendors like Tokens Studio.
+
 ## 5.4.4
 
 ### Patch Changes
